@@ -9,27 +9,31 @@ import { cn } from "@/lib/utils";
 const FAQS = [
   {
     q: "What exactly is CrowdStock?",
-    a: "CrowdStock is a crowd-prediction game. Each round, you stake a fixed amount and pick a number. When the round settles, everyone's picks are averaged, and your gain or loss depends on how close your number was to that average.",
+    a: "CrowdStock is a stock set by the people. Each round, you set a fixed amount and a stock value. When the round settles, everyone's values combine into the People's Hourly Stock Value, and how much you earn depends on how close your value was to it.",
   },
   {
     q: "How many rounds run per day?",
     a: "24 — one every hour, around the clock. Round 0 opens at midnight and Round 23 opens at 11PM. Each round stays open for 50 minutes before it settles.",
   },
   {
-    q: "Can I change my pick after I submit it?",
-    a: "No. Once you submit a pick for a round, it's locked in until that round settles. You can, however, submit picks for any other open round today in advance.",
+    q: "Can I change my stock value after I submit it?",
+    a: "No. Once you set a stock value for a round, it's locked in until that round settles. You can, however, set your value for any other open round today in advance.",
   },
   {
-    q: "What is Auto Play?",
-    a: "Auto Play submits your chosen figure automatically the moment a round opens, for every round you've enabled — so you don't have to be watching the clock all day.",
+    q: "What is Auto Stock?",
+    a: "Auto Stock sets your chosen figure automatically the moment a round opens, for every round you've enabled — so you don't have to be watching the clock all day.",
+  },
+  {
+    q: "Can I lose money?",
+    a: "You always keep your spot in the round. How much you earn simply depends on how close your stock value lands to the People's Hourly Stock Value that hour — the closer you are, the more you earn.",
   },
   {
     q: "How do withdrawals work?",
-    a: "Link a verified bank account in the app, then request a payout from your wallet balance whenever you want. Your transaction history shows every deposit, stake, gain, and withdrawal.",
+    a: "Link a verified bank account in the app, then request a payout from your wallet balance whenever you want. Your transaction history shows every deposit, stock round, and withdrawal.",
   },
   {
     q: "Is my account secure?",
-    a: "Yes. CrowdStock supports biometric app lock and stores credentials in encrypted on-device storage, so your wallet stays protected even if your phone is picked up by someone else.",
+    a: "Yes. CrowdStock supports biometric app lock and stores credentials in encrypted on-device storage, so your wallet stays protected even if your phone ends up in someone else's hands.",
   },
 ];
 

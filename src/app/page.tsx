@@ -1,8 +1,9 @@
 import { Nav } from "@/components/Nav";
 import { Hero } from "@/components/Hero";
+import { RealPeople } from "@/components/RealPeople";
 import { HowItWorks } from "@/components/HowItWorks";
 import { RoundsPreview } from "@/components/RoundsPreview";
-import { AutoPlaySpotlight } from "@/components/AutoPlaySpotlight";
+import { AutoStockSpotlight } from "@/components/AutoStockSpotlight";
 import { Features } from "@/components/Features";
 import { Security } from "@/components/Security";
 import { InviteEarn } from "@/components/InviteEarn";
@@ -16,9 +17,10 @@ export default function Home() {
       <Nav />
       <main>
         <Hero />
+        <RealPeople />
         <HowItWorks />
         <RoundsPreview />
-        <AutoPlaySpotlight />
+        <AutoStockSpotlight />
         <Features />
         <Security />
         <InviteEarn />

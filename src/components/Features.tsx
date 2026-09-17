@@ -13,14 +13,14 @@ const FEATURES = [
   {
     icon: Zap,
     tone: "primary" as const,
-    title: "Auto Play",
-    body: "Set a figure once and let CrowdStock submit it for you across every round — or fine-tune a different pick for each hour in advance.",
+    title: "Auto Stock",
+    body: "Set a figure once and let CrowdStock set it for you across every round — or fine-tune a different value for each hour in advance.",
   },
   {
     icon: Wallet,
     tone: "blue" as const,
     title: "Instant wallet",
-    body: "Fund your balance, watch gains and losses land in real time, and request a payout to your bank account whenever you want.",
+    body: "Fund your balance, watch every result land in real time, and request a payout to your bank account whenever you want.",
   },
   {
     icon: BellRing,
@@ -31,8 +31,8 @@ const FEATURES = [
   {
     icon: BarChart3,
     tone: "purple" as const,
-    title: "Transparent scoring",
-    body: "Every result shows your pick, the crowd average, and the exact deviation between them — no hidden math, ever.",
+    title: "Transparent results",
+    body: "Every result shows your stock value, the People's Hourly Stock Value, and exactly how close you were — no hidden math, ever.",
   },
   {
     icon: Fingerprint,
@@ -44,7 +44,7 @@ const FEATURES = [
     icon: Gift,
     tone: "blue" as const,
     title: "Invite & earn",
-    body: "Bring friends onto CrowdStock from your contacts or WhatsApp and earn reward credits for every person who joins and plays.",
+    body: "Bring friends onto CrowdStock from your contacts or WhatsApp and earn reward credits for every person who joins and sets their first stock value.",
   },
 ];
 
@@ -64,7 +64,7 @@ export function Features() {
             Features
           </p>
           <h2 className="mt-3 text-balance font-display text-3xl font-bold tracking-tight text-text sm:text-4xl">
-            Everything you need to play, nothing you don&apos;t.
+            Everything you need to get started, nothing you don&apos;t.
           </h2>
         </Reveal>
 

@@ -100,10 +100,10 @@ export function PhoneMockup() {
                 Round 14 is open
               </p>
               <p className="mt-0.5 text-[10px] leading-snug text-text-muted">
-                Submit your pick before 2:50 PM.
+                Set your stock value before 2:50 PM.
               </p>
               <div className="mt-2 inline-flex items-center rounded-full bg-primary px-3 py-1.5 text-[10px] font-bold text-on-primary">
-                Pick Stock Now
+                Set Stock Now
               </div>
             </div>
 

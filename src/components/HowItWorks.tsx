@@ -5,23 +5,23 @@ import { Reveal, RevealGroup, RevealItem } from "./Reveal";
 const STEPS = [
   {
     icon: Target,
-    title: "Pick your number",
-    body: "Choose any open round today and submit your stock pick with your fixed stake — pick ahead for later rounds, or play the one that's live right now.",
+    title: "Set your stock value",
+    body: "Choose any open round today and set your stock value with your fixed amount — set it ahead for later rounds, or set the one that's live right now.",
   },
   {
     icon: Hourglass,
     title: "The round runs for 50 minutes",
-    body: "Every round opens on the hour and closes 50 minutes later. Once you submit, that's it — no changing your pick before it settles.",
+    body: "Every round opens on the hour and closes 50 minutes later. Once you set it, that's it — no changing your stock value before it settles.",
   },
   {
     icon: Users2,
-    title: "The crowd average is calculated",
-    body: "When the round settles, CrowdStock takes every player's pick that round and works out the average — the number the whole crowd landed on.",
+    title: "The People's Hourly Stock Value is set",
+    body: "When the round settles, CrowdStock takes everyone's stock value that hour and sets the People's Hourly Stock Value — the number the people landed on, together.",
   },
   {
     icon: Trophy,
-    title: "Closest to average wins",
-    body: "The nearer your pick was to the crowd average, the bigger your gain. The further away, the bigger the loss. Simple, transparent, every hour.",
+    title: "Closest to the People's Value earns most",
+    body: "The nearer your stock value is to the People's Hourly Stock Value, the more you earn. Stay close, earn more — you never lose your spot. Simple, transparent, every hour.",
   },
 ];
 
@@ -37,8 +37,8 @@ export function HowItWorks() {
             Four steps. One hour cycles. Zero guesswork.
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-text-muted">
-            No charts to read, no companies to research. CrowdStock is a game
-            of reading the crowd — and it resets every single hour.
+            No charts to read, no companies to research. CrowdStock is stock
+            value set by real people — and it resets every single hour.
           </p>
         </Reveal>
 

@@ -21,7 +21,7 @@ const POINTS = [
   {
     icon: Eye,
     title: "Transparent every round",
-    body: "Your pick, the crowd average, and your exact result — visible after every settle.",
+    body: "Your stock value, the People's Hourly Stock Value, and your exact result — visible after every settle.",
   },
 ];
 

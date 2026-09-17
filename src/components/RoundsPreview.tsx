@@ -48,8 +48,8 @@ export function RoundsPreview() {
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-text-muted">
               Round 0 opens at midnight, Round 23 opens at 11PM — each one
-              stays open for 50 minutes before it settles against the crowd
-              average. Miss one, catch the next hour.
+              stays open for 50 minutes before it settles against the
+              People&apos;s Hourly Stock Value. Miss one, catch the next hour.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
@@ -116,7 +116,7 @@ export function RoundsPreview() {
                         Round {hour}
                       </p>
                       <p className="truncate text-xs text-text-dim">
-                        {formatHour(hour)} – {formatHour(hour)} + 50 min
+                        {formatHour(hour)} – {formatHour(hour, 50)}
                       </p>
                     </div>
                     <span

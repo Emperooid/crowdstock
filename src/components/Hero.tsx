@@ -7,7 +7,7 @@ import { PhoneMockup } from "./PhoneMockup";
 import { Reveal } from "./Reveal";
 
 const STATS = [
-  { value: "24", label: "Live rounds, every day" },
+  { value: "24", label: "Stock rounds, every hour" },
   { value: "60", label: "Minutes per round cycle" },
   { value: "₦", label: "Instant wallet payouts" },
 ];
@@ -32,7 +32,7 @@ export function Hero() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
               <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-primary" />
             </span>
-            A NEW ROUND OPENS EVERY HOUR
+            IT&apos;S A STOCK SET BY PEOPLE
           </motion.div>
 
           <motion.h1
@@ -41,9 +41,9 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.05 }}
             className="mt-6 text-balance font-display text-4xl font-bold leading-[1.05] tracking-tight text-text sm:text-5xl lg:text-[3.4rem]"
           >
-            Play the crowd.
+            Your stock.
             <br />
-            <span className="text-primary">Beat the average.</span>
+            <span className="text-primary">Set by the people.</span>
           </motion.h1>
 
           <motion.p
@@ -52,10 +52,10 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.12 }}
             className="mt-6 max-w-lg text-balance text-lg leading-relaxed text-text-muted"
           >
-            CrowdStock runs 24 live prediction rounds a day. Pick a number for
-            your stake, and when the round settles, the closer you land to
-            everyone else&apos;s average, the more you win. No charts. No
-            research. Just you against the crowd.
+            Every hour, set your own stock value — or let Auto Stock set it
+            for you. The closer you land to the People&apos;s Hourly Stock
+            Value, the more you earn. No charts. No guesswork. Just people,
+            setting stock, together.
           </motion.p>
 
           <motion.div

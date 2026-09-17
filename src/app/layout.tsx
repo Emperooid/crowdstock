@@ -19,32 +19,32 @@ const siteUrl = "https://crowdstock.app";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "CrowdStock — Play the Crowd. Beat the Average.",
+    default: "CrowdStock — The People's Stock",
     template: "%s — CrowdStock",
   },
   description:
-    "CrowdStock runs 24 live prediction rounds a day. Pick a number, and the closer you land to the crowd's average, the more you win. Auto Play, instant wallet, and real-time results.",
+    "CrowdStock sets a new stock value every hour, together. Set your value — or let Auto Stock set it for you — and the closer you land to the People's Hourly Stock Value, the more you earn.",
   keywords: [
     "CrowdStock",
-    "prediction game",
-    "crowd average game",
-    "stock prediction app",
-    "auto play",
-    "daily rounds",
+    "the people's stock",
+    "hourly stock value",
+    "auto stock",
+    "shared growth",
+    "community wallet app",
   ],
   openGraph: {
-    title: "CrowdStock — Play the Crowd. Beat the Average.",
+    title: "CrowdStock — The People's Stock",
     description:
-      "24 live rounds, every hour. Pick a number, chase the crowd average, cash out instantly.",
+      "24 hourly stock rounds. Set your value, stay close to the People's Hourly Stock Value, cash out instantly.",
     url: siteUrl,
     siteName: "CrowdStock",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "CrowdStock — Play the Crowd. Beat the Average.",
+    title: "CrowdStock — The People's Stock",
     description:
-      "24 live rounds, every hour. Pick a number, chase the crowd average, cash out instantly.",
+      "24 hourly stock rounds. Set your value, stay close to the People's Hourly Stock Value, cash out instantly.",
   },
   icons: {
     icon: "/brand/favicon.png",

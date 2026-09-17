@@ -25,7 +25,7 @@ const COLUMNS = [
     links: [
       { label: "Privacy Policy", href: "#" },
       { label: "Terms of Service", href: "#" },
-      { label: "Responsible Play", href: "#" },
+      { label: "Responsible Use", href: "#" },
     ],
   },
 ];
@@ -38,8 +38,8 @@ export function Footer() {
           <div>
             <Logo />
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-text-muted">
-              A live crowd-prediction game. Pick a number, chase the average,
-              cash out — every hour, all day.
+              A stock set by the people. Set your value, stay close to the
+              People&apos;s Hourly Stock Value, cash out — every hour, all day.
             </p>
             <div className="mt-6 flex items-center gap-3">
               <SocialIcon icon={Globe} label="Website" />
@@ -73,7 +73,7 @@ export function Footer() {
 
         <div className="mt-14 flex flex-col gap-4 border-t border-border pt-8 text-xs text-text-dim sm:flex-row sm:items-center sm:justify-between">
           <p>© {new Date().getFullYear()} CrowdStock. All rights reserved.</p>
-          <p>Play responsibly. Must be 18+ to participate.</p>
+          <p>Set responsibly. Must be 18+ to participate.</p>
         </div>
       </Container>
     </footer>

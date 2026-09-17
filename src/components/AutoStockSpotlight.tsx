@@ -13,12 +13,12 @@ const SLOTS = [
 ];
 
 const POINTS = [
-  "Pick one figure for every round, or set a different one per hour",
-  "Rounds you've enabled play automatically the moment they open",
+  "Set one figure for every round, or set a different one per hour",
+  "Rounds you've enabled set automatically the moment they open",
   "Turn any single round on or off without touching the rest",
 ];
 
-export function AutoPlaySpotlight() {
+export function AutoStockSpotlight() {
   return (
     <section className="relative py-24 sm:py-32">
       <Container className="grid items-center gap-16 lg:grid-cols-2 lg:gap-8">
@@ -30,7 +30,7 @@ export function AutoPlaySpotlight() {
                   <Zap size={15} className="text-on-primary" />
                 </div>
                 <div>
-                  <p className="text-sm font-bold text-text">Auto Play</p>
+                  <p className="text-sm font-bold text-text">Auto Stock</p>
                   <p className="text-[11px] text-text-muted">3 of 24 rounds enabled</p>
                 </div>
               </div>
@@ -52,7 +52,7 @@ export function AutoPlaySpotlight() {
                     <p className="text-xs font-semibold text-text">
                       Round {slot.round} · {slot.time}
                     </p>
-                    <p className="text-[11px] text-text-dim">Stake {slot.amount}</p>
+                    <p className="text-[11px] text-text-dim">Value {slot.amount}</p>
                   </div>
                   <div
                     className={cn(
@@ -76,14 +76,14 @@ export function AutoPlaySpotlight() {
         <div className="order-1 lg:order-2">
           <Reveal>
             <p className="text-sm font-semibold uppercase tracking-widest text-primary">
-              Auto Play
+              Auto Stock
             </p>
             <h2 className="mt-3 text-balance font-display text-3xl font-bold tracking-tight text-text sm:text-4xl">
-              Set it once. Let it play every hour.
+              Set it once. Let it run every hour.
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-text-muted">
               You don&apos;t have to be watching the clock 24 times a day.
-              Auto Play submits your figure the instant a round opens, so you
+              Auto Stock sets your figure the instant a round opens, so you
               never miss a cycle.
             </p>
 

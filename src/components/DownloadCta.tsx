@@ -15,7 +15,7 @@ export function DownloadCta() {
                 The next round opens in under an hour.
               </h2>
               <p className="mx-auto mt-4 max-w-lg text-balance text-lg text-text-muted">
-                Download CrowdStock and put your first pick in before the
+                Download CrowdStock and set your first stock value before the
                 clock runs out.
               </p>
 
