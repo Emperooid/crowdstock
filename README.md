@@ -1,6 +1,6 @@
-# CrowdStock — Landing Page
+# CrowdGames — Landing Page
 
-Marketing landing page for **CrowdStock**, a live crowd-prediction game app. Built with Next.js (App Router), TypeScript, Tailwind CSS v4, and Framer Motion.
+Marketing landing page for **CrowdGames**, a live crowd-prediction game app. Built with Next.js (App Router), TypeScript, Tailwind CSS v4, and Framer Motion.
 
 ## Getting Started
 
@@ -22,4 +22,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it.
 
 - `src/app` — root layout, global styles, page entry
 - `src/components` — one component per section (Nav, Hero, HowItWorks, RoundsPreview, AutoPlaySpotlight, Features, Security, InviteEarn, Faq, DownloadCta, Footer) plus shared primitives (Container, Reveal, Logo)
-- `public/brand` — the real CrowdStock app logo/favicon
+- `public/brand` — the real CrowdGames app logo/favicon

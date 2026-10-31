@@ -10,7 +10,7 @@ export default function ResponsibleUsePage() {
     <LegalPage
       title="Responsible Use"
       updated="September 20, 2026"
-      intro="CrowdStock is meant to be a fun way to take part alongside other people, not a way to make ends meet. Here's how to keep it that way."
+      intro="CrowdGames is meant to be a fun way to take part alongside other people, not a way to make ends meet. Here's how to keep it that way."
     >
       <LegalSection title="1. Only set what you can afford to set aside">
         <p>
@@ -40,7 +40,7 @@ export default function ResponsibleUsePage() {
             "Spending money meant for essentials to fund your wallet.",
             "Thinking about rounds when you should be focused on work, school, or family.",
             "Feeling anxious, guilty, or unable to stop when you try to take a break.",
-            "Hiding your activity on CrowdStock from people close to you.",
+            "Hiding your activity on CrowdGames from people close to you.",
           ]}
         />
       </LegalSection>
@@ -61,7 +61,7 @@ export default function ResponsibleUsePage() {
         <LegalList
           items={[
             "Set a time limit for how long you spend in the app each day.",
-            "Don't treat CrowdStock as a source of income or a way to solve financial difficulty.",
+            "Don't treat CrowdGames as a source of income or a way to solve financial difficulty.",
             "Take regular breaks between rounds rather than joining every hour.",
           ]}
         />
@@ -70,7 +70,7 @@ export default function ResponsibleUsePage() {
       <LegalSection title="6. Supporting someone else">
         <p>
           If you're worried about a friend or family member's use of
-          CrowdStock, encourage them to use the limit and take-a-break tools
+          CrowdGames, encourage them to use the limit and take-a-break tools
           in the app, and to talk to a licensed financial counselor if money
           management becomes difficult. We're also glad to talk through the
           tools available — reach us at{" "}
@@ -83,14 +83,14 @@ export default function ResponsibleUsePage() {
 
       <LegalSection title="7. Age restriction">
         <p>
-          CrowdStock is strictly for people aged 18 and older. Identity
+          CrowdGames is strictly for people aged 18 and older. Identity
           verification is required to confirm this.
         </p>
       </LegalSection>
 
       <LegalSection title="8. Getting help">
         <p>
-          If spending on CrowdStock — or anywhere else — is affecting your
+          If spending on CrowdGames — or anywhere else — is affecting your
           finances, wellbeing, or relationships, please speak with a licensed
           financial counselor or a mental health professional in your area.
           You can also reach our support team at{" "}

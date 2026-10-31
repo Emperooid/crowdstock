@@ -10,13 +10,13 @@ export default function TermsPage() {
     <LegalPage
       title="Terms of Service"
       updated="September 20, 2026"
-      intro="These Terms govern your use of the CrowdStock app and website. By creating an account, you agree to them."
+      intro="These Terms govern your use of the CrowdGames app and website. By creating an account, you agree to them."
     >
       <LegalSection title="1. Acceptance of these terms">
         <p>
-          By creating a CrowdStock account or using the app, you agree to
+          By creating a CrowdGames account or using the app, you agree to
           these Terms and our Privacy Policy. If you do not agree, please do
-          not use CrowdStock.
+          not use CrowdGames.
         </p>
       </LegalSection>
 
@@ -25,17 +25,17 @@ export default function TermsPage() {
           items={[
             "You must be at least 18 years old.",
             "You must complete any identity verification we require.",
-            "You may hold only one CrowdStock account.",
-            "You are responsible for using CrowdStock in line with the laws of the location you use it from.",
+            "You may hold only one CrowdGames account.",
+            "You are responsible for using CrowdGames in line with the laws of the location you use it from.",
           ]}
         />
       </LegalSection>
 
-      <LegalSection title="3. What CrowdStock is">
+      <LegalSection title="3. What CrowdGames is">
         <p>
-          CrowdStock is a participation platform built around hourly rounds.
+          CrowdGames is a participation platform built around hourly rounds.
           In each round, every participant sets their own stock value. When
-          the round closes, CrowdStock combines everyone&apos;s stock value
+          the round closes, CrowdGames combines everyone&apos;s stock value
           into the People&apos;s Hourly Stock Value. How much you earn from a
           round depends on how close your stock value was to that number.
           Auto Stock is an optional feature that sets your chosen value
@@ -45,14 +45,14 @@ export default function TermsPage() {
 
       <LegalSection title="4. Not an investment product">
         <p>
-          CrowdStock is not a bank, broker, investment adviser, or provider
+          CrowdGames is not a bank, broker, investment adviser, or provider
           of financial products. Setting a stock value does not buy shares,
           securities, or any real-world asset, and nothing in the app is
           financial advice. The People&apos;s Hourly Stock Value is generated
           entirely from participants&apos; own submitted values each round —
           it does not track any market, index, or external price. Outcomes
           depend on the collective behavior of participants that hour and are
-          inherently uncertain; CrowdStock does not guarantee any return,
+          inherently uncertain; CrowdGames does not guarantee any return,
           outcome, or level of earnings.
         </p>
       </LegalSection>
@@ -71,7 +71,7 @@ export default function TermsPage() {
       <LegalSection title="6. Wallet, funding & payouts">
         <LegalList
           items={[
-            "You fund your CrowdStock wallet using the payment methods we support.",
+            "You fund your CrowdGames wallet using the payment methods we support.",
             "Amounts set into an open round are held for that round and released back into your wallet, plus any earnings, once the round settles.",
             "Payout requests are sent to the bank details you provide and processed within the timeframe shown in the app.",
             "We may apply limits to deposits, payouts, or round participation to manage risk and comply with regulation.",
@@ -94,7 +94,7 @@ export default function TermsPage() {
             "Create or use more than one account.",
             "Use bots, scripts, or automation to set stock values.",
             "Attempt to coordinate with other participants to manipulate the People's Hourly Stock Value.",
-            "Use CrowdStock for money laundering or any unlawful purpose.",
+            "Use CrowdGames for money laundering or any unlawful purpose.",
             "Attempt to access another user's account or our systems without authorization.",
           ]}
         />
@@ -115,7 +115,7 @@ export default function TermsPage() {
       <LegalSection title="10. Taxes">
         <p>
           You are responsible for determining and paying any taxes that apply
-          to your use of CrowdStock under the laws of your jurisdiction.
+          to your use of CrowdGames under the laws of your jurisdiction.
         </p>
       </LegalSection>
 
@@ -131,8 +131,8 @@ export default function TermsPage() {
 
       <LegalSection title="12. Disclaimers & limitation of liability">
         <p>
-          CrowdStock is provided &ldquo;as is.&rdquo; To the fullest extent
-          permitted by law, CrowdStock is not liable for indirect,
+          CrowdGames is provided &ldquo;as is.&rdquo; To the fullest extent
+          permitted by law, CrowdGames is not liable for indirect,
           incidental, or consequential losses arising from your use of the
           app, including losses relating to round outcomes, service
           interruptions, or third-party payment failures.
@@ -143,7 +143,7 @@ export default function TermsPage() {
         <p>
           We may update these Terms from time to time. We will post the
           updated version here and update the &ldquo;Last updated&rdquo;
-          date. Continuing to use CrowdStock after an update means you accept
+          date. Continuing to use CrowdGames after an update means you accept
           the revised Terms.
         </p>
       </LegalSection>

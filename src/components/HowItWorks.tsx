@@ -16,7 +16,7 @@ const STEPS = [
   {
     icon: Users2,
     title: "The People's Hourly Stock Value is set",
-    body: "When the round settles, CrowdStock takes everyone's stock value that hour and sets the People's Hourly Stock Value — the number the people landed on, together.",
+    body: "When the round settles, CrowdGames takes everyone's stock value that hour and sets the People's Hourly Stock Value — the number the people landed on, together.",
   },
   {
     icon: Trophy,
@@ -37,7 +37,7 @@ export function HowItWorks() {
             Four steps. One hour cycles. Zero guesswork.
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-text-muted">
-            No charts to read, no companies to research. CrowdStock is stock
+            No charts to read, no companies to research. CrowdGames is stock
             value set by real people — and it resets every single hour.
           </p>
         </Reveal>

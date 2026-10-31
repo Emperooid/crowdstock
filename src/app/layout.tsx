@@ -19,13 +19,13 @@ const siteUrl = "https://crowdstock.app";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "CrowdStock — The People's Stock",
-    template: "%s — CrowdStock",
+    default: "CrowdGames — The People's Stock",
+    template: "%s — CrowdGames",
   },
   description:
-    "CrowdStock sets a new stock value every hour, together. Set your value — or let Auto Stock set it for you — and the closer you land to the People's Hourly Stock Value, the more you earn.",
+    "CrowdGames sets a new stock value every hour, together. Set your value — or let Auto Stock set it for you — and the closer you land to the People's Hourly Stock Value, the more you earn.",
   keywords: [
-    "CrowdStock",
+    "CrowdGames",
     "the people's stock",
     "hourly stock value",
     "auto stock",
@@ -33,16 +33,16 @@ export const metadata: Metadata = {
     "community wallet app",
   ],
   openGraph: {
-    title: "CrowdStock — The People's Stock",
+    title: "CrowdGames — The People's Stock",
     description:
       "24 hourly stock rounds. Set your value, stay close to the People's Hourly Stock Value, cash out instantly.",
     url: siteUrl,
-    siteName: "CrowdStock",
+    siteName: "CrowdGames",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "CrowdStock — The People's Stock",
+    title: "CrowdGames — The People's Stock",
     description:
       "24 hourly stock rounds. Set your value, stay close to the People's Hourly Stock Value, cash out instantly.",
   },

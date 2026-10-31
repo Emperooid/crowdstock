@@ -8,8 +8,8 @@ import { cn } from "@/lib/utils";
 
 const FAQS = [
   {
-    q: "What exactly is CrowdStock?",
-    a: "CrowdStock is a stock set by the people. Each round, you set a fixed amount and a stock value. When the round settles, everyone's values combine into the People's Hourly Stock Value, and how much you earn depends on how close your value was to it.",
+    q: "What exactly is CrowdGames?",
+    a: "CrowdGames is a stock set by the people. Each round, you set a fixed amount and a stock value. When the round settles, everyone's values combine into the People's Hourly Stock Value, and how much you earn depends on how close your value was to it.",
   },
   {
     q: "How many rounds run per day?",
@@ -33,7 +33,7 @@ const FAQS = [
   },
   {
     q: "Is my account secure?",
-    a: "Yes. CrowdStock supports biometric app lock and stores credentials in encrypted on-device storage, so your wallet stays protected even if your phone ends up in someone else's hands.",
+    a: "Yes. CrowdGames supports biometric app lock and stores credentials in encrypted on-device storage, so your wallet stays protected even if your phone ends up in someone else's hands.",
   },
 ];
 
