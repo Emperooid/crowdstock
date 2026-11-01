@@ -22,7 +22,7 @@ export function InviteEarn() {
             Onboard others, earn more.
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-text-muted">
-            Bring friends onto CrowdStock straight from your contacts or
+            Bring friends onto CrowdGames straight from your contacts or
             WhatsApp. The more people you onboard, the more reward credits
             you build toward your own payout.
           </p>
@@ -43,7 +43,7 @@ export function InviteEarn() {
           <div className="mx-auto max-w-sm rounded-3xl border border-border bg-surface p-6 shadow-[0_30px_80px_-30px_rgba(0,0,0,0.6)]">
             <p className="text-sm font-bold text-text">Onboard Others, Earn More</p>
             <p className="mt-1 text-xs leading-relaxed text-text-muted">
-              Earn more by bringing others to CrowdStock — the more people you
+              Earn more by bringing others to CrowdGames — the more people you
               onboard, the higher your payout gets.
             </p>
 
@@ -67,7 +67,7 @@ export function InviteEarn() {
                   </span>
                   {c.status === "joined" ? (
                     <span className="flex items-center gap-1 rounded-full bg-primary-tint px-2.5 py-1 text-[10px] font-bold text-primary">
-                      CrowdStock
+                      CrowdGames
                       <CheckCircle2 size={11} />
                     </span>
                   ) : (

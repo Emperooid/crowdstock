@@ -10,11 +10,11 @@ export default function PrivacyPolicyPage() {
     <LegalPage
       title="Privacy Policy"
       updated="September 20, 2026"
-      intro="This Privacy Policy explains what information CrowdStock collects, how we use it, and the choices and rights you have over your data."
+      intro="This Privacy Policy explains what information CrowdGames collects, how we use it, and the choices and rights you have over your data."
     >
       <LegalSection title="1. Who we are">
         <p>
-          CrowdStock (&ldquo;CrowdStock&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;) operates the CrowdStock
+          CrowdGames (&ldquo;CrowdGames&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;) operates the CrowdGames
           mobile app and website, through which people set an hourly stock
           value together. This policy applies to anyone who visits our
           website or uses the app.
@@ -121,7 +121,7 @@ export default function PrivacyPolicyPage() {
 
       <LegalSection title="9. Age restriction">
         <p>
-          CrowdStock is for people aged 18 and older. We do not knowingly
+          CrowdGames is for people aged 18 and older. We do not knowingly
           collect information from anyone under 18, and we verify age as part
           of identity verification.
         </p>

@@ -72,7 +72,7 @@ export function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col gap-4 border-t border-border pt-8 text-xs text-text-dim sm:flex-row sm:items-center sm:justify-between">
-          <p>© {new Date().getFullYear()} CrowdStock. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} CrowdGames. All rights reserved.</p>
           <p>Set responsibly. Must be 18+ to participate.</p>
         </div>
       </Container>

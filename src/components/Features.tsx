@@ -14,7 +14,7 @@ const FEATURES = [
     icon: Zap,
     tone: "primary" as const,
     title: "Auto Stock",
-    body: "Set a figure once and let CrowdStock set it for you across every round — or fine-tune a different value for each hour in advance.",
+    body: "Set a figure once and let CrowdGames set it for you across every round — or fine-tune a different value for each hour in advance.",
   },
   {
     icon: Wallet,
@@ -44,7 +44,7 @@ const FEATURES = [
     icon: Gift,
     tone: "blue" as const,
     title: "Invite & earn",
-    body: "Bring friends onto CrowdStock from your contacts or WhatsApp and earn reward credits for every person who joins and sets their first stock value.",
+    body: "Bring friends onto CrowdGames from your contacts or WhatsApp and earn reward credits for every person who joins and sets their first stock value.",
   },
 ];
 
